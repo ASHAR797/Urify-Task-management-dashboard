@@ -1,0 +1,221 @@
+@font-face {
+    font-family: "Manrope-font" ;
+    src: url(./Assets/font-folder/xn7gYHE41ni1AdIRggexSg.ttf);
+}
+*{
+margin: 0;
+padding: 0;
+    font-family: "Manrope-font" , 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif , math , 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif , 'Courier New', Courier, monospace , 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  width: 100%;
+  background-color: black ;
+}
+.main{
+    padding:  5px 10px ;
+    background-color: #F7F7F7;
+    width: 80%;
+    height: 98vh;
+    margin: auto;
+    border-radius: 20px;
+}
+.sidebar-main-container{
+    height: 100%;
+   width: 6.3%;
+   padding: 40px 0px;
+   background: linear-gradient(  #fff,#fff, #3e50f934);
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+}
+.sidebar-second-container{
+     margin-top: 8vh;
+     gap: 15px;
+}
+.sidebar-second-container img{
+   width: 35px;
+}
+.dashboard-main-container{
+    margin: 10px;
+    width: 94%;
+    height: 100%;
+    background-color: #F7F7F7;
+}
+.dashboard-main-container .dashboard-top-box{
+    padding: 0px 20px;
+    height: 14%;
+    width: 95%;
+    border-bottom: 1px solid #D9D9D9;
+}
+.dashboard-top-box-search-box{
+    background: white;
+    border: none;
+    padding: 10px;
+    width: 31%;
+    gap: 10px;
+    border-radius: 5px;
+}
+.dashboard-top-box-search-box input{
+    border: none  ;
+    outline: none;
+    flex: 1;
+    font-size: 14px;
+    color: #1C1B20;
+}
+
+.dashboard-top-box-user-profile  {
+    gap: 8px;
+}
+.dashboard-second-box{
+    width: 95%;
+    height: 86%;
+}
+.dashboard-profile-main{
+    height: 100%;
+    background-color: white;
+    width: 70%;
+}
+.dashboard-user-profile{
+    width: 100%;
+    background-color: #F7F7F7;
+    height: 50%;
+    padding: 15px 4px;
+}
+.user-profile-card{
+    height: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 40px 10px #edecec;
+    width: 40%;
+    border-radius: 26px;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+.user-profile-card-first{
+    height: 0%;
+}
+.user-card{
+    gap: 10px;
+}
+.user-profile-card div h4{
+    font-size: 20px;
+}
+.user-profile-card div:nth-child(3){
+    height: 31%;
+    border-radius: 20px;
+}
+.user-profile-card-first img:nth-child(2){
+    width: 40px;
+}
+.user-profile-icon{
+    width: 35px;
+}
+.user-profile-card .user-img{
+    width: 100px;
+}
+.user-information{
+   width: 60%;
+   margin: 0px 10px;
+   padding: 10px 15px;
+   height: 100%;
+}
+.user-information-card:nth-child(1){
+    width: 48%;
+    background-color: #A0E79F;
+    padding: 15px;
+    height: 10em;
+    border-radius: 15px;
+}
+.user-information-card:nth-child(2){
+    width: 48%;
+    background-color: #9AA0FE;
+    padding: 15px;
+    height: 10em;
+    border-radius: 15px;
+}
+.user-information .user-information-first-container {
+    width: 100%;
+}
+.user-information .user-information-second-container{
+    width: 100%;
+    padding: 10px;
+    background: white;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px 2px #edecec;
+    margin: 7px;
+}
+#myChart{
+        display: block;
+    box-sizing: border-box;
+    height: 275px !important;
+    width: 680px !important;
+}
+.dashboard-task-main{
+    height: 100%;
+    width: 30%;
+}
+.dashboard-task-main > div {
+    background-color: white;
+    height: 100%;
+    border-radius: 20px;
+    margin: 10px;
+    width: 90%;
+}
+.dashboard-task-main > div > div:nth-child(1){
+    padding: 8px 15px;
+    width: 90%;
+    border-bottom: 1px solid #D9D9D9;
+}
+.task-card{
+    width: 90%;
+    margin-top: 7px;
+}
+.task-card > div{
+    margin: 10px 0px;
+}
+.task-card > div img{
+    width: 35px ;
+}
+.task-card >div h4{
+    font-size: 14px;
+}
+.task-card > div span , .task-card > div strong {
+    font-size: 13px;
+}
+.tasks-second-container{
+    width: 90%;
+    height: 100%;
+}
+.tasks-second-container > div:nth-child(2){
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.tasks-second-container > div:nth-child(2) div {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    width: 44%;
+    border-radius: 15px;
+    margin-top: 5px;
+    height: 5em;
+}
+.tasks-second-container > div:nth-child(1)  h4{
+    font-size: 18px;
+    padding: 6px 0px;
+}
+.tasks-second-container > div:nth-child(2) div img{
+    width: 25px;
+}
+.tasks-second-container > div:nth-child(2) div h4{
+    font-size: 17px;
+}
+.tasks-second-container > div:nth-child(2) div p{
+    font-size: 12px ;
+}
+
+.tasks-second-container > div:nth-child(3) img {
+    width: 99%;
+    padding: 6px 9px;
+}
+

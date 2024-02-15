@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urify Task Management - Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utiles.css">
+</head>
+
+<body class="flex align-center">
+    <section class="main flex align-center justify-around">
+        <div class="sidebar-main-container flex flex-column align-center ">
+            <div>
+                <img src="./Assets/img-folder/Frame.svg" alt="">
+            </div>
+            <div class="sidebar-second-container flex flex-column align-center ">
+                <img src="./Assets/img-folder/Group 1000004467.svg" alt="">
+                <img src="./Assets/img-folder/Group 1.svg" alt="">
+                <img src="./Assets/img-folder/Group 3.svg" alt="">
+                <img src="./Assets/img-folder/Group 4.svg" alt="">
+                <img src="./Assets/img-folder/Group 5.svg" alt="">
+            </div>
+        </div>
+        <div class="dashboard-main-container flex flex-column align-center ">
+            <div class="dashboard-top-box flex justify-between align-center">
+                <div class="dashboard-top-box-search-box flex">
+                    <img src="./Assets/img-folder/search-normal.svg" alt="">
+                    <input type="text" placeholder="Search for something..." autocomplete="on">
+                </div>
+                <div class="dashboard-top-box-user-profile flex align-center">
+                    <img src="./Assets/img-folder/Group 15.svg" alt="">
+                    <div>
+                        <h3>Albert Flores</h3>
+                        <img src="./Assets/img-folder/Location.svg">
+                    </div>
+                    <img src="./Assets/img-folder/Vector.svg" alt="">
+                </div>
+            </div>
+            <div class="dashboard-second-box flex">
+                <div class="dashboard-profile-main">
+                    <div class="dashboard-user-profile flex">
+                        <div class="user-profile-card flex flex-column ">
+                            <div class="user-profile-card-first flex  justify-between">
+                                <div>
+                                    <h4>Profile</h4>
+                                    <span>24%<img src="./Assets/img-folder/Group 1000004381.png" alt=""></span>
+                                    <img src="./Assets/img-folder/" alt="">
+                                </div>
+                                <div>
+                                    <img src="./Assets/img-folder/Group 1000004468.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="user-card flex flex-column align-center">
+                                <img class="user-img" src="./Assets/img-folder/Group 1000004451.svg" alt="">
+                                <h3>Cody Fisher</h3>
+                                <p>codyfisher94@gmail.com</p>
+                                <div>
+                                    <img class="user-profile-icon" src="Assets/img-folder/Frame 52.svg" alt="">
+                                    <img class="user-profile-icon" src="Assets/img-folder/Frame 53.svg" alt="">
+                                    <img class="user-profile-icon" src="Assets/img-folder/Frame 54.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="user-information flex flex-column align-center">
+                            <div class="user-information-first-container flex justify-between">
+                                <div class="user-information-card flex flex-column justify-between">
+                                    <div class="flex justify-between">
+                                        <img src="Assets/img-folder/timer.png" alt="">
+                                        <img src="Assets/img-folder/3dots.svg" alt="">
+                                    </div>
+                                    <div>
+                                        <h3>Prioritized tasks</h3>
+                                        <div>
+                                            <h2>80%</h2>
+                                            <p>Average Complete</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="user-information-card flex flex-column justify-between">
+                                    <div class="flex justify-between">
+                                        <img src="Assets/img-folder/timer.png" alt="">
+                                        <img src="Assets/img-folder/3dots.svg" alt="">
+                                    </div>
+                                    <div>
+                                        <h3>Additional tasks</h3>
+                                        <div>
+                                            <h2>50%</h2>
+                                            <p>Average Complete</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="user-information-second-container flex justify-between">
+                                <div>
+                                    <h3>Compatible With</h3>
+                                    <p>3 active connection</p>
+                                </div>
+                                <div class="flex align-center">
+                                    <img src="./Assets/img-folder/Group 1000004762.png" alt="">
+                                    <img src="./Assets/img-folder/Group 1000004763.svg" alt="">
+                                    <img src="./Assets/img-folder/Group 1000004761.svg" alt="">
+                                    <img src="./Assets/img-folder/profile-Vector.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dashboard-user-activity">
+                        <canvas id="myChart"></canvas>
+                    </div>
+                </div>
+                <div class="dashboard-task-main flex flex-column align-center">
+                    <div class="flex flex-column align-center">
+                        <div class="flex justify-between align-center">
+                            <h3>My Task</h3>
+                            <img src="./Assets/img-folder/Image.svg" alt="">
+                        </div>
+                        <div class="task-card">
+                            <div>
+                                <div class="flex justify-around align-center">
+                                    <div>
+                                        <img src="./Assets/img-folder/Group 6.svg" alt="">
+                                    </div>
+                                    <div>
+                                        <h4>Jenny Wilson</h4>
+                                        <span>@jennywilson</span>
+                                    </div>
+                                    <div>
+                                        <strong>32 Tasks</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex justify-around align-center">
+                                    <div>
+                                        <img src="./Assets/img-folder/Group 1000004373.svg" alt="">
+                                    </div>
+                                    <div>
+                                        <h4>Jenny Wilson</h4>
+                                        <span>@jennywilson</span>
+                                    </div>
+                                    <div>
+                                        <strong>14 Tasks</strong>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="flex justify-around align-center">
+                                    <div>
+                                        <img src="./Assets/img-folder/Alberts.svg" alt="">
+                                    </div>
+                                    <div>
+                                        <h4>Jenny Wilson</h4>
+                                        <span>@jennywilson</span>
+                                    </div>
+                                    <div>
+                                        <strong>6 Tasks</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tasks-second-container">
+                            <div>
+                                <h4>Setting</h4>
+                            </div>
+                            <div>
+                                <div>
+                                    <img src="./Assets/img-folder/Group 1000004762.png" alt="">
+                                    <h4>75</h4>
+                                    <p>Notified me</p>
+                                </div>
+                                <div>
+                                    <img src="./Assets/img-folder/Group 1000004762.png" alt="">
+                                    <h4>75</h4>
+                                    <p>Notified me</p>
+                                </div>
+                                <div>
+                                    <img src="./Assets/img-folder/Group 1000004762.png" alt="">
+                                    <h4>75</h4>
+                                    <p>Notified me</p>
+                                </div>
+                                <div>
+                                    <img src="./Assets/img-folder/Group 1000004762.png" alt="">
+                                    <h4>75</h4>
+                                    <p>Notified me</p>
+                                </div>
+                            </div>
+                            <div class="flex flex-column align-center">
+                                <img src="./Assets/img-folder/Frame 1000004520.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
