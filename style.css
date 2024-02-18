@@ -33,6 +33,9 @@ body{
      margin-top: 8vh;
      gap: 15px;
 }
+.menu{
+    display: none;
+}
 .sidebar-second-container img{
    width: 35px;
 }
@@ -218,4 +221,77 @@ body{
     width: 99%;
     padding: 6px 9px;
 }
+@media (max-width: 767px) {
+    .main{
+        flex-direction: column;
+    }
+    .sidebar-main-container {
+        height: 20px;
+        width: 100%;
+        flex-direction: initial !important;
+        border-radius: 10px;
+        box-shadow: 0px 0px 30px 5px rgba(227, 225, 225, 0.635);
+        position: relative;
+        padding: 40px 20px;
+}
+.sidebar-second-container{
+    margin: 0px  20px ;
+    display: none !important;
+}
+.menu {
+    display: block;
+    position: absolute;
+    top: 18px;
+    right: 30px;
+    width: 40px;
+}
+.main {
+    padding: 5px 10px;
+    background-color: #F7F7F7;
+    width: 90%;
+    height: 120em;
+    margin: auto;
+}
+.dashboard-main-container .dashboard-top-box {
+    height: 12em;
+    justify-content: space-evenly !important;
+    flex-direction: column !important;
+}
+.dashboard-top-box-search-box {
+    width: 90%;
+}
+.dashboard-second-box , .dashboard-user-profile{
+    flex-direction: column;
+    width: 80vw;
+}
+.dashboard-profile-main {
+    height: 60em;
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.user-profile-card{
+    width: 100%;
+}
+.user-information {
+    width: 100%;
+    padding: 10px 0px;
+    margin: 0px;
+    height: 37em;
+}
+.user-information-card:nth-child(1) , .user-information-card:nth-child(2){
+    height: 12em;
+}
+#myChart {
+    height: 252px !important;
+    width: 81vw !important;
+}
+.dashboard-task-main {
+width: 100%;
+margin-top: 50px;
+}
 
+}
